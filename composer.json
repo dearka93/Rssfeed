@@ -1,0 +1,18 @@
+{
+"name": "protein/rssfeed",
+"type": "library",
+"description": "Simple Pie wrapper to display rss feeds",
+"keywords": ["rss", "simplepie", "wrapper", "anax", "feed"],
+"homepage": "https://github.com/dearka93/Rssfeed",
+"license": "MIT",
+"authors": [
+    {
+        "name": "Guanglei Huang",
+        "email": "guanglei.huang@gmail.com",
+        "role": "Developer"
+    }
+],
+"require": {
+    "php": ">=5.4"
+    }
+}
