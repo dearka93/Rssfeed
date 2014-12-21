@@ -23,6 +23,6 @@ class RssfeedTest extends \PHPUnit_Framework_TestCase
 	public function testRssFeed() {
         $rss = new \Protein\Rssfeed\Rssfeed(['http://www.aftonbladet.se/rss.xml']);
 		$test = $rss->picRss();
-		$this->assertInternalType('string', $test, "Output does not match expected");
+		$this->assertStringEndsWith('</div>', $test);
 	}    
 }
