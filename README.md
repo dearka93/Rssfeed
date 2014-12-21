@@ -1,7 +1,7 @@
 Protein/Rssfeed
 =========
 [![Build Status](https://travis-ci.org/dearka93/Rssfeed.svg?branch=master)](https://travis-ci.org/dearka93/Rssfeed)
-
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dearka93/Rssfeed/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dearka93/Rssfeed/?branch=master)
 PHP class to load and display Rss feeds. This php class also contains SimplePie. http://simplepie.org/
 
 By Guanglei Huang, guanglei.huang@gmail.com
