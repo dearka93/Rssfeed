@@ -5,6 +5,7 @@ class Rssfeed{
     
     private $feed;
     
+    
     public function __construct(array $feedUrl)
     {
         require_once(__DIR__ . '/simplepie/simplepie/autoloader.php');
@@ -22,6 +23,7 @@ class Rssfeed{
     }
     
     public function picRss() {
+        date_default_timezone_set('Europe/Stockholm');
         $feed = $this->feed;
         
         $html = null;
