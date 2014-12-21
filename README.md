@@ -1,6 +1,6 @@
 Protein/Rssfeed
 =========
-https://travis-ci.org/dearka93/Rssfeed.svg?branch=master
+[![Build Status](https://travis-ci.org/dearka93/Rssfeed.svg?branch=master)](https://travis-ci.org/dearka93/Rssfeed)
 
 PHP class to load and display Rss feeds. This php class also contains SimplePie. http://simplepie.org/
 
