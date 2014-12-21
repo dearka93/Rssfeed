@@ -13,14 +13,14 @@ class RssfeedTest extends \PHPUnit_Framework_TestCase
     }
 */
     
-    public function testClassType() {
+    public function testClass() {
         $rss = new \Protein\Rssfeed\Rssfeed(['http://www.aftonbladet.se/rss.xml']);
 		$test = get_class($rss);
 		$exp = "Protein\Rssfeed\Rssfeed";
 		$this->assertEquals($test, $exp, "Wrong class");
 	}
     
-	public function testGetFeed() {
+	public function testRssFeed() {
         $rss = new \Protein\Rssfeed\Rssfeed(['http://www.aftonbladet.se/rss.xml']);
 		$test = $rss->picRss();
 		$this->assertInternalType('string', $test, "Output does not match expected");
